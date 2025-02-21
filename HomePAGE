@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exit hollywood.</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.02em;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 500;
+            letter-spacing: -0.03em;
+            margin-bottom: 25px;
+            color: #000;
+        }
+        .tagline {
+            font-size: 24px;
+            font-weight: 500;
+            color: #000;
+            margin-bottom: 50px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 16px 42px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+            text-transform: lowercase;
+            transition: background 0.2s;
+        }
+        .cta-button:hover {
+            background: #000;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+            .tagline {
+                font-size: 20px;
+            }
+            .cta-button {
+                padding: 14px 36px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>exit hollywood.</h1>
+        <p class="tagline">ur bigger than a dying industry</p>
+        <a href="mailto:rbhatia613@gmail.com" class="cta-button">reach out</a>
+    </div>
+</body>
+</html>
